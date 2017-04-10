@@ -20,7 +20,7 @@ before_script:
   - echo ${DEPLOY_REPO_NAME}
   
 script:
-  - ./gradlew -d uploadArchives -Ps3BucketRepoUrl=${S3_BUCKET_REPO_URL} -Ps3AccessKey=${S3_ACCESS_KEY} -Ps3SecretKey=${S3_SECRET_KEY} --no-daemon
+  - ./gradlew --stacktrace uploadArchives -Ps3BucketRepoUrl=${S3_BUCKET_REPO_URL} -Ps3AccessKey=${S3_ACCESS_KEY} -Ps3SecretKey=${S3_SECRET_KEY} --no-daemon
 ### - ./gradlew uploadArchives -PnablarchRepoUsername=${REPO_USER} -PnablarchRepoPassword=${DEPLOY_PASSWORD} -PnablarchRepoReferenceUrl=${DEVELOP_REPO_URL} -PnablarchRepoReferenceName=${DEVELOP_REPO_NAME} -PnablarchRepoDeployUrl=${DEPLOY_HOST_URL} -PnablarchRepoName=${DEPLOY_REPO_NAME} --no-daemon
 
 before_cache:
