@@ -1,5 +1,5 @@
 
-   このモジュールはApache License, Version 2.0のソースコードを一部利用している。
+   このモジュールはApache License, Version 2.0のソースコードを一部利用している。dd
 
    Apache License, Version 2.0
        http://www.apache.org/licenses/LICENSE-2.0.txt
