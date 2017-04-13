@@ -6,6 +6,8 @@ jdk:
 before_install:
   - chmod +x gradlew
   
+install: true
+  
 cache:
   directories:
     - $HOME/.gradle/caches/
