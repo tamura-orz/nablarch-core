@@ -1,4 +1,4 @@
-# batだけは、動かなくなるからCRLF固定。d123
+# batだけは、動かなくなるからCRLF固定。d123sss
 *.bat text eol=crlf
 
 # CSVはCRLFとLFが混在するのでバイナリ扱いにする
